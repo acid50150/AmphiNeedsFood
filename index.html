@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background: #f0f0f0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+     <video autoplay muted loop playsinline>
+      <source src="/amphi-food.webm" type="video/webm" />
+      <img src="/amphi-food.gif" alt="Fallback GIF" />
+    </video>
+    <h2>Please think of the Amphi's</h2>
+    <h3><a href="https://www.twitch.tv/amphibitrix" target="_blank">Check Amphi's Food Level</a></h3>
+  </div>
+</body>
+</html>
